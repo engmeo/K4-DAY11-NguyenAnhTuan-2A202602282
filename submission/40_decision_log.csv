@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D01,2026-09-28,Reference và annotation khác nhau ở các case MISSING/SPURIOUS?,review_before_rework,Đối chiếu ảnh gốc theo R01 trước khi thay đổi annotation,open
+D02,2026-09-28,Model-only có đủ bằng chứng để sửa annotation không?,keep_with_reason,Model-only mismatch không đủ bằng chứng để kết luận annotation sai,accepted
+D03,2026-09-28,Các case reference có box nhưng annotation thiếu xử lý thế nào?,verify_original_image,Kiểm tra vật trên ảnh gốc và ngưỡng chiều cao >=40 px theo R01 trước khi rework,open
+D04,2026-09-28,Có đủ bằng chứng để kết luận annotation sai ở các mismatch chưa rõ không?,escalate_to_qa,Chưa đủ bằng chứng trực tiếp từ diagnostics; QA cần đối chiếu ảnh gốc/reference trước khi quyết định rework,escalated

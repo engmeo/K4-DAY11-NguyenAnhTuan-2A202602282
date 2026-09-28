@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,P2,Phủ mẫu thông thường
+front,hard,25,P1,Ưu tiên distortion và object khó
+rear,normal,25,P2,Phủ mẫu thông thường
+rear,hard,25,P1,Ưu tiên distortion và object khó
+left,normal,25,P2,Phủ mẫu thông thường
+left,hard,25,P1,Ưu tiên seam và distortion
+right,normal,25,P2,Phủ mẫu thông thường
+right,hard,25,P1,Ưu tiên seam và distortion

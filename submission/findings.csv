@@ -1,1 +1,37 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+r3_diag,B4-mid,adasind_249480.jpg,R1+M1,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,Reference and model both contain a corresponding box while annotation is missing; verify the object in the original image before rework.
+r3_diag,B4-mid,adasind_249480.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_249480.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_249480.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,L6+R6,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Reference and annotation agree while model has no match; do not change annotation from model mismatch alone.
+r3_diag,B4-mid,adasind_261480.jpg,L3+R5,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Reference and annotation agree while model has no match; do not change annotation from model mismatch alone.
+r3_diag,B4-mid,adasind_261480.jpg,L4+R4,LR_noM,MISSING,E4_model_domain,P2,ai_team,,,keep_with_reason,,Reference and annotation agree while model has no match; do not change annotation from model mismatch alone.
+r3_diag,B4-mid,adasind_261480.jpg,L2,L_only,SPURIOUS,E5_unresolved,P2,qa,,,keep_with_reason,,Annotation-only mismatch is ambiguous from diagnostics alone; inspect original image and reference before deciding rework.
+r3_diag,B4-mid,adasind_261480.jpg,R2+M7,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,Reference and model both contain a corresponding box while annotation is missing; verify the object in the original image before rework.
+r3_diag,B4-mid,adasind_261480.jpg,R7+M9,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,Reference and model both contain a corresponding box while annotation is missing; verify the object in the original image before rework.
+r3_diag,B4-mid,adasind_261480.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,M10,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,M11,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,M12,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_261480.jpg,M13,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r3_diag,B4-mid,adasind_265065.jpg,R4+M4,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,Reference and model both contain a corresponding box while annotation is missing; verify the object in the original image before rework.
+r3_diag,B4-mid,adasind_265065.jpg,R5+M7,RM_noL,MISSING,E1_annotator_error,P1,annotator,,,rework,,Reference and model both contain a corresponding box while annotation is missing; verify the object in the original image before rework.
+r3_diag,B4-mid,adasind_265065.jpg,R7,R_only,MISSING,E1_annotator_error,P1,annotator,,,rework,,Reference contains a box with no annotation/model match; verify the object in the original image before rework.
+r3_diag,B4-mid,adasind_265065.jpg,M8,M_only,SPURIOUS,E4_model_domain,P2,ai_team,,,keep_with_reason,,Model-only box is not sufficient evidence that the annotation is wrong; inspect image/reference before any annotation change.
+r1_craft,B4-mid,adasind_249480.jpg,R1,na,MISSING,,,,,,,,
+r1_craft,B4-mid,adasind_261480.jpg,L2,na,SPURIOUS,,,,,,,,
+r1_craft,B4-mid,adasind_261480.jpg,R2,na,MISSING,,,,,,,,
+r1_craft,B4-mid,adasind_261480.jpg,R7,na,MISSING,,,,,,,,
+r1_craft,B4-mid,adasind_265065.jpg,R4,na,MISSING,,,,,,,,
+r1_craft,B4-mid,adasind_265065.jpg,R5,na,MISSING,,,,,,,,
+r1_craft,B4-mid,adasind_265065.jpg,R7,na,MISSING,,,,,,,,
+calib,C0,adasind_019560.jpg,L4,na,SPURIOUS,,,,,,,,
+calib,C0,adasind_019560.jpg,R2,na,MISSING,,,,,,,,
+calib,C0,adasind_019560.jpg,R4,na,MISSING,,,,,,,,
+calib,C0,adasind_019560.jpg,R6,na,MISSING,,,,,,,,
+r2_qa,B4-mid,adasind_249480.jpg,R1,L_only,MISSING,,,,R01,,,v1.0.0,QA review
+r2_qa,B4-mid,adasind_261480.jpg,R2,L_only,MISSING,,,,R01,,,v1.0.0,QA review
+r2_qa,B4-mid,adasind_265065.jpg,R4,L_only,MISSING,,,,R01,,,v1.0.0,QA review

@@ -1,0 +1,15 @@
+{
+  "members": [
+    "NguyenAnhTuan"
+  ],
+  "assignments": {
+    "NguyenAnhTuan": "B4-mid"
+  },
+  "self": "NguyenAnhTuan",
+  "slice": "B4-mid",
+  "degrade": [],
+  "current_slice": "C0",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": []
+}
